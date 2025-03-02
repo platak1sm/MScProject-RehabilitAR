@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RehabilitAR.unity
+    guid: 13cf6e105f82b4e97962a2177bc89836
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 379fef4dac7d647d5a402e1ffae78501, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0de9d90fcfa044ef1b3a18c4a979e960, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 40796594ef196402c873db450460038c, type: 2}
