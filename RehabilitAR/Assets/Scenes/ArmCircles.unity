@@ -1347,7 +1347,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258131900}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 775fcd27c4563420db3928c0680894f0, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: d0593680ba19645649dd5461a959f02e, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -4919,7 +4919,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: cd90210b1f7c9483d8537e0e3637c8d1, type: 2}
+      objectReference: {fileID: 9100000, guid: 59019d6c82f044ef583094a60a26ae5a, type: 2}
     - target: {fileID: 5866666021909216657, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_WarningMessage
       value: 
@@ -6934,6 +6934,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
       propertyPath: m_Name
       value: Avatar
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4436805663696350335, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12086,14 +12090,6 @@ PrefabInstance:
       propertyPath: leftHand
       value: 
       objectReference: {fileID: 1590164403}
-    - target: {fileID: 4225746901359675256, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
-      propertyPath: m_text
-      value: 2. Lateral Raises
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225746901359675256, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
-      propertyPath: m_fontSize
-      value: 23.35
-      objectReference: {fileID: 0}
     - target: {fileID: 5505318574695173144, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_SizeDelta.x
       value: 327.82
@@ -12193,18 +12189,6 @@ PrefabInstance:
     - target: {fileID: 8425191281256289890, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.684
-      objectReference: {fileID: 0}
-    - target: {fileID: 8770332062209717464, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
-      propertyPath: m_text
-      value: '1) Stand tall
-
-        2) Raise both arms sideways to head level.
-
-        3)
-        Lower slowly.
-
-
-        Goal: 5 Reps'
       objectReference: {fileID: 0}
     - target: {fileID: 8902200162298397828, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_fontSize

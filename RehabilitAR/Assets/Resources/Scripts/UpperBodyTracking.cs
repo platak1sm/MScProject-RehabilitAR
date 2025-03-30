@@ -480,15 +480,6 @@ public class UpperBodyIK : MonoBehaviour
             }
         }
 
-        #if UNITY_EDITOR
-        if (repState != previousState)
-        {
-            Debug.Log($"RepState: {repState}, Reps: {repCount}, " +
-                      $"AngleToStart: {angleToStart:F2}, AngleToTarget: {angleToTarget:F2}, " +
-                      $"Velocity: {velocity:F2}, Pos: {rightHandTarget.position}");
-        }
-        #endif
-
         lastHandPos = rightHandTarget.position;
     }
 

@@ -43,6 +43,6 @@ public class StartSceneController : MonoBehaviour
 
         fadePanel.color = endColor; // Ensure fully black
         Debug.Log("Fade complete, loading ExerciseScene");
-        SceneManager.LoadScene("RehabilitAR");
+        SceneManager.LoadScene("FrontRaises");
     }
 }
