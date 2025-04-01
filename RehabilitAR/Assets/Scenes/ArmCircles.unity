@@ -6937,7 +6937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4436805663696350335, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6991,7 +6991,7 @@ MonoBehaviour:
   repCountText: {fileID: 455017911}
   repOverlay: {fileID: 931251943}
   overlayDuration: 0.5
-  exerciseConfig: {fileID: 11400000, guid: d0a003dd3f66f484b8aa0183534c797c, type: 2}
+  exerciseConfig: {fileID: 11400000, guid: 00216e51248814559ac7963981241b2e, type: 2}
 --- !u!4 &1284997797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: faad182081ad7476da11d2ba44c05b92, type: 3}

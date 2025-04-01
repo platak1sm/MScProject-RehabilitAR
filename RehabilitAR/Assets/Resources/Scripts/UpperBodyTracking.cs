@@ -349,7 +349,7 @@ using System.Collections;
 public class UpperBodyIK : MonoBehaviour
 {
     [SerializeField] private Transform headTarget, leftHandTarget, rightHandTarget, leftElbowHint, rightElbowHint;
-    [Range(0f, 1f)] [SerializeField] private float headWeight = 1f, handWeight = 1f, elbowHintWeight = 1f, footWeight = 1f;
+    [Range(0f, 1f)][SerializeField] private float headWeight = 1f, handWeight = 1f, elbowHintWeight = 1f, footWeight = 1f;
     [SerializeField] private float cameraForwardOffset = 0.2f;
     [SerializeField] private TextMeshProUGUI repCountText;
     [SerializeField] private Image repOverlay;
@@ -481,6 +481,14 @@ public class UpperBodyIK : MonoBehaviour
         }
 
         lastHandPos = rightHandTarget.position;
+
+        if (repState != previousState)
+        {
+            string log = $"RepState: {repState}, Reps: {repCount}, " +
+                         $"AngleToStart: {angleToStart:F2}, AngleToTarget: {angleToTarget:F2}, " +
+                         $"Velocity: {velocity:F2}, Pos: {rightHandTarget.position}";
+            Debug.Log(log); // Still logs to adb logcat
+        }
     }
 
     private IEnumerator ShowOverlay(Color color)

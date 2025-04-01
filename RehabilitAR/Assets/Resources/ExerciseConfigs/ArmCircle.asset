@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ArmCircle
   m_EditorClassIdentifier: 
   _startDirection: {x: 0, y: 0, z: 1}
-  _targetDirection: {x: 0.5, y: 0, z: 0.87}
-  angleTolerance: 30
+  _targetDirection: {x: 0.342, y: 0, z: 0.9397}
+  angleTolerance: 8.3
   minVelocity: 0.1
   maxVelocity: 6
   requiredReps: 5
