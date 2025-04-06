@@ -1318,7 +1318,7 @@ GameObject:
   - component: {fileID: 258131903}
   - component: {fileID: 258131902}
   m_Layer: 0
-  m_Name: VideoEx2
+  m_Name: VideoEx4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1347,7 +1347,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258131900}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d0593680ba19645649dd5461a959f02e, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 51d852f3ed69d48d1bc3e51196b8d6a1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -4854,19 +4854,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.38191092
+      value: 0.38190937
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.92419916
+      value: 0.9241998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4919,7 +4919,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 59019d6c82f044ef583094a60a26ae5a, type: 2}
+      objectReference: {fileID: 9100000, guid: af6abde424ca04f0194bb91e0bfce925, type: 2}
     - target: {fileID: 5866666021909216657, guid: b26363fddb97a44d6bf4fd87acf2dd09, type: 3}
       propertyPath: m_WarningMessage
       value: 
@@ -6935,10 +6935,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Avatar
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4436805663696350335, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -6960,6 +6956,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1284997796}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1284997799}
   m_SourcePrefab: {fileID: 100100000, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
 --- !u!1 &1284997795 stripped
 GameObject:
@@ -6973,7 +6972,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284997795}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 827089bb1dd2848edae77e9c97aee700, type: 3}
   m_Name: 
@@ -6987,16 +6986,43 @@ MonoBehaviour:
   handWeight: 1
   elbowHintWeight: 1
   footWeight: 0.8
-  cameraForwardOffset: 0.3
+  cameraForwardOffset: 0.21
   repCountText: {fileID: 455017911}
   repOverlay: {fileID: 931251943}
   overlayDuration: 0.5
-  exerciseConfig: {fileID: 11400000, guid: 00216e51248814559ac7963981241b2e, type: 2}
+  exerciseConfig: {fileID: 11400000, guid: 8819b3380abf24ff4b970cfae4dfb752, type: 2}
 --- !u!4 &1284997797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: faad182081ad7476da11d2ba44c05b92, type: 3}
   m_PrefabInstance: {fileID: 1284997794}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1284997799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284997795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb3b72f6403e46c0965ed0f904a2898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headTarget: {fileID: 425705811}
+  leftHandTarget: {fileID: 1590164403}
+  rightHandTarget: {fileID: 231525756}
+  leftElbowHint: {fileID: 1240837907}
+  rightElbowHint: {fileID: 1699755816}
+  headWeight: 0.8
+  handWeight: 1
+  elbowHintWeight: 1
+  footWeight: 0.8
+  cameraForwardOffset: 0.21
+  repCountText: {fileID: 455017911}
+  repOverlay: {fileID: 931251943}
+  overlayDuration: 0.5
+  frontRaiseHoldConfig: {fileID: 11400000, guid: af5690a1993104e8eafee6bff7d0e703, type: 2}
+  lateralHoldConfig: {fileID: 11400000, guid: 8819b3380abf24ff4b970cfae4dfb752, type: 2}
 --- !u!1 &1290276356
 GameObject:
   m_ObjectHideFlags: 0
@@ -12092,11 +12118,11 @@ PrefabInstance:
       objectReference: {fileID: 1590164403}
     - target: {fileID: 4225746901359675256, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_text
-      value: '3. Arm Circles '
+      value: 4. Front Raise with Lateral Reach
       objectReference: {fileID: 0}
     - target: {fileID: 4225746901359675256, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_fontSize
-      value: 27.9
+      value: 20.5
       objectReference: {fileID: 0}
     - target: {fileID: 5505318574695173144, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_SizeDelta.x
@@ -12200,16 +12226,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8770332062209717464, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_text
-      value: '1) Start with arms straight forward.
+      value: '1) Start with arms down.
 
-        2) Move your right arm
-        slightly to the right (small circle).
+        2) Raise arms straight forward and
+        hold briefly.
 
-        3) Return to straight forward.
+        3) Move arms to the right side and hold briefly.
+
+        4)
+        Lower arms back down.
 
 
-        Goal:
-        5 Reps'
+        Goal: 5 Reps'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8770332062209717464, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
+      propertyPath: m_fontSize
+      value: 23.05
       objectReference: {fileID: 0}
     - target: {fileID: 8902200162298397828, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_fontSize

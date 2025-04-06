@@ -12196,7 +12196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8770332062209717464, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_text
-      value: '1) Stand tall
+      value: '1) Stand tall.
 
         2) Raise both arms sideways to head level.
 

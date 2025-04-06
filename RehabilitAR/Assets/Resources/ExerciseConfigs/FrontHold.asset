@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da7668c12234a491c9020023d93646f9, type: 3}
-  m_Name: FrontHoldSideDown1
+  m_Name: FrontHold
   m_EditorClassIdentifier: 
   _startDirection: {x: 0, y: -1, z: 0}
   _targetDirection: {x: 0, y: 0, z: 1}
   angleTolerance: 25
   minVelocity: 0.1
   maxVelocity: 5
-  requiredReps: 5
-  nextSceneName: 
+  requiredReps: 10
+  nextSceneName: Start

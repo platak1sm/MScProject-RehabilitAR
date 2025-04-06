@@ -12184,6 +12184,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.684
       objectReference: {fileID: 0}
+    - target: {fileID: 8770332062209717464, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
+      propertyPath: m_text
+      value: '1) Stand tall.
+
+        2) Raise both arms forward to head level.
+
+        3)
+        Lower slowly.
+
+
+        Goal: 5 Reps'
+      objectReference: {fileID: 0}
     - target: {fileID: 8902200162298397828, guid: b27b0682a254a404cb8410c57a35038a, type: 3}
       propertyPath: m_fontSize
       value: 25.9
