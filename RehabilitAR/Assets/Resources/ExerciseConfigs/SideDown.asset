@@ -18,4 +18,4 @@ MonoBehaviour:
   minVelocity: 0.1
   maxVelocity: 5
   requiredReps: 10
-  nextSceneName: Start
+  nextSceneName: End

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _startDirection: {x: 0, y: -1, z: 0}
   _targetDirection: {x: 0.894, y: 0, z: 0.447}
-  angleTolerance: 23
+  angleTolerance: 30
   minVelocity: 0.1
   maxVelocity: 4
   requiredReps: 5

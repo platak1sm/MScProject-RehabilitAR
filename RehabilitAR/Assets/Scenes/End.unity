@@ -11146,17 +11146,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea96d0d52d75643bc976dfe69ae8047a, type: 3}
---- !u!114 &2736340406190543838 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 835478813392429119, guid: ea96d0d52d75643bc976dfe69ae8047a, type: 3}
-  m_PrefabInstance: {fileID: 2736340406190543837}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2742323983284839353
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11465,19 +11454,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome to RehabilitAR, an Augmented Reality application for shoulder
-    rehabilitation.
-
-
-    Follow the demo avatar and video to perform your exercises
-    correctly.
-
-
-    If you want to skip a level, press button "A" on your right
-    controller.
-
-
-    Press button "A" on your right controller to start.'
+  m_text: "Great job! You\u2019ve completed your rehabilitaion session.\n\nPress
+    B on your right controller and take a well-deserved break.\n\nOR\n\nPress A on
+    your right controller to return to the Main Menu and start again.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11504,14 +11483,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.15
+  m_fontSize: 25.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 25.4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -11606,11 +11585,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4549447735506837196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f455b44feb2b94ff2bfe766f439a0911, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d691c187cb124f6c96cf12cce8c48e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadePanel: {fileID: 2736340406190543838}
-  fadeDuration: 2
+  fadePanel: {fileID: 0}
+  fadeDuration: 1
 --- !u!224 &7809641450209673410
 RectTransform:
   m_ObjectHideFlags: 0
